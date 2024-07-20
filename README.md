@@ -1,11 +1,14 @@
-<h1>OpenWrt — 云编译</h1>
+<div align="center">
+<h1>🌐OpenWrt — 云编译</h1>
+</div>
 
+# 🐻‍❄️项目说明 [![](https://img.shields.io/badge/-项目基本介绍-FFFFFF.svg)](#项目说明-)
 - **本固件禁止用于任何商业用途，请务必严格遵守国家互联网使用相关法律规定！**
+- 固件默认管理地址：`192.168.1.1`
+- 默认用户：`root`
+- 默认密码：`password`
 
-## 项目说明 [![](https://img.shields.io/badge/-项目基本介绍-FFFFFF.svg)](#项目说明-)
-- 固件默认管理地址：`192.168.1.1` 默认用户：`root` 默认密码：`password`
-
-# 固件简要说明：
+## 🐶固件简要说明
 
 固件每天早上4点自动编译。
 
@@ -13,7 +16,7 @@
 
 MEDIATEK系列、QUALCOMMAX系列、ROCKCHIP系列、X86系列。
 
-# 目录简要说明：
+## 🐺目录简要说明
 
 diy——自定义添加软件
 
@@ -23,7 +26,7 @@ Scripts——自定义脚本
 
 Config——自定义配置
 
-## 定制固件 [![](https://img.shields.io/badge/-项目基本编译教程-FFFFFF.svg)](#定制固件-)
+## 🦁定制固件 [![](https://img.shields.io/badge/-项目基本编译教程-FFFFFF.svg)](#定制固件-)
 1. 首先要登录 Gihub 账号，然后 Fork 此项目到你自己的 Github 仓库
 2. 修改 `config` 目录对应文件添加或删除插件，或者上传自己的 `.config` 配置文件
 3. 插件对应名称及功能请参考恩山网友帖子：[Applications 添加插件应用说明](https://www.right.com.cn/forum/thread-3682029-1-1.html)
