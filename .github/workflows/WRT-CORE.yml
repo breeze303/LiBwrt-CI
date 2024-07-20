@@ -232,15 +232,12 @@ jobs:
           tag_name: ${{env.WRT_TARGET}}_${{env.WRT_VER}}_${{env.WRT_DATE}}
           files: ./wrt/upload/*.*
           body: |
-            这是个平台固件包，内含多个设备！
-            请注意选择你需要的设备固件！
-            不要问，刷就完事了！
-
-            MTK和QCA全系带开源硬件加速，别问了！
-
-            源码：${{env.WRT_REPO}}
-            分支：${{env.WRT_BRANCH}}
-            平台：${{env.WRT_TARGET}}
-            设备：${{env.WRT_TYPE}}
-            地址：${{env.WRT_IP}}
-            密码：${{env.WRT_PW}}
+            ### 🧑‍🚀这是${{env.WRT_TARGET}}平台使用的 OpenWrt 固件🧑‍🚀
+            - 请注意选择你需要的设备固件！     
+            ⚠️MTK和QCA全系带开源硬件加速⚠️
+            ### 📒 固件信息
+            - 🌍️源码：${{env.WRT_REPO}}
+            - 💝分支：${{env.WRT_BRANCH}}
+            - 📱平台：${{env.WRT_TARGET}}
+            - 🌐地址：${{env.WRT_IP}}
+            - 🔑密码：${{env.WRT_PW}}
