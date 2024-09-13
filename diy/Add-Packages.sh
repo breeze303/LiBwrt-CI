@@ -14,4 +14,4 @@ luci-app-tailscale asvow/luci-app-tailscale main
 lucky gdy666/luci-app-lucky main
 istore linkease/istore main
 nas-packages linkease/nas-packages master
-nas_luci linkease/nas-packages-luci main
+nas-luci linkease/nas-packages-luci main
