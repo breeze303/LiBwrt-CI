@@ -182,6 +182,7 @@ jobs:
           cd ./wrt/
 
           rm -rf ./tmp* ./.config*
+          ./scripts/feeds install -a
 
           cat $GITHUB_WORKSPACE/Config/$WRT_TARGET.txt >> .config
 
